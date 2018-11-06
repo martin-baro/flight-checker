@@ -1,13 +1,16 @@
-
+from APIs import kiwicom
 
 class App():
-    def __init__():
-        pass
-    def run():
+    def __init__(self):
         pass
 
-if __name__ = "__main__":
-    app = App():
-    app.run()
+    def run(self, dest, start_d, return_d):
+        kiwicom.API_print("hello!")
 
-    
+
+if __name__ == "__main__":
+    app = App()
+    destination = "DPS"
+    start_date = "04/04/2019"
+    return_date = "24/04/2019"
+    app.run(destination, start_date, return_date)
