@@ -5,7 +5,7 @@ class App():
         pass
 
     def run(self, dest, start_d, return_d):
-        kiwicom.API_print("hello!")
+        kiwicom.flight_search(dest,start_d, return_d)
 
 
 if __name__ == "__main__":
