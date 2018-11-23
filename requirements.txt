@@ -10,7 +10,7 @@ pyparsing==2.2.0
 pytest==3.1.0
 python-dateutil==2.6.0
 python-dotenv==0.6.4
-requests==2.14.2
+requests==2.20.0
 requirements==0.1
 six==1.10.0
 structlog==17.2.0
